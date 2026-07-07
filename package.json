@@ -1,0 +1,44 @@
+{
+  "name": "project-iris",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@21st-sdk/agent": "^0.0.18",
+    "@21st-sdk/nextjs": "^0.0.11",
+    "@21st-sdk/node": "^0.1.1",
+    "@21st-sdk/react": "^0.1.4",
+    "@ai-sdk/react": "^4.0.17",
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.2",
+    "ai": "^7.0.16",
+    "autoprefixer": "^10.5.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.1.7",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.9",
+    "lucide-react": "^1.23.0",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^3.6.0",
+    "three": "^0.164.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.164.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
